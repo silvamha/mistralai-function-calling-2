@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container is-fullheight">
+      <img src="images/ursula.png" alt="Profile Picture" class="profile-image">
+      <div class="chat-container">
+        <div id="chat-messages" class="box">
+          <!-- Chat messages will go here -->
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <input class="input" type="text" id="message-input" placeholder="Type your message...">
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <button class="button is-primary" id="send-button">Send</button>
+                <button class="button" id="clear-chat">Clear Chat</button>
+                <button class="button is-danger" id="delete-all">Delete All</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script>
+
+    </script>
+  </body>
+</html>
